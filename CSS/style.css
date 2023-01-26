@@ -19,6 +19,7 @@ h1{
     flex-direction: column;
     margin-bottom: 2rem;
     margin-top: 0;
+    margin-left: 2.4rem;
 }
 
 header{
@@ -26,7 +27,7 @@ header{
     padding-left: 2.4rem;
     padding-right: 2.4rem;
     margin-top: 3rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -43,8 +44,6 @@ body{
 
 .section1{
     padding-top: 20rem;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
     padding-bottom: 3rem;
 }
 nav{
@@ -72,6 +71,8 @@ ul{
     display: flex;
     margin-bottom: 2rem;
     align-items: center;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
 }
 
 p{
@@ -148,6 +149,29 @@ p{
     }
 }
 
-@media (min-width:1440px){
-    
+@media (min-width:1080px){
+    .section1{
+        padding-top: 40rem;
+    }
+    h1{
+        margin-left: 11rem;
+    }
+    .textArenda{
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+}
+
+@media (min-width:1920px){
+    .section1{
+        padding-top: 50rem;
+    }
+    h1{
+        font-size: 6.8rem;
+        margin-left: 31rem;
+    }
+    header{
+        padding-left: 31rem;
+        padding-right: 31rem;
+    }
 }
